@@ -1,0 +1,47 @@
+.container{
+  padding: 20rpx 30rpx;
+}
+.container .item-group{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.item-group .thumbnail{
+  width: 40rpx;
+  height: 50rpx;
+}
+.item-group .item-title{
+  margin: 0 10rpx;
+  font-size: 30rpx;
+  color: #41be57;
+}
+.item-group .item-rate{
+  font-size: 26rpx;
+  color: #b2b2b2;
+}
+.comment-title{
+  width: 100%;
+  height: 100%;
+  margin-top: 60rpx;
+  font-size: 40rpx;
+  margin-bottom: 40rpx;
+}
+.onecomment{
+  width: 100%;
+  height: 100%;
+}
+.page-btn-group{
+  margin: 40rpx 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.page-btn-group .page-btn{
+  height: 60rpx;
+  flex: 1;
+  border-color: #898989;
+  color: #898989;
+  line-height: 60rpx;
+}

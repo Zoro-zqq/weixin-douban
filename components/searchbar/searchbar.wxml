@@ -1,0 +1,6 @@
+<view class="sreachbar">
+  <navigator wx:if="{{isnavigator}}" class="search-navigation" url="/pages/search/search"></navigator>
+  <view wx:else class="sreach-input-group">
+    <input type="text" placeholder="搜索" class="sreach-input" bindinput="onInputEvent" />
+  </view>
+</view>

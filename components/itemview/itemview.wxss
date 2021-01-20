@@ -1,0 +1,25 @@
+.item-navigator{
+  width: 200rpx;
+  display: inline-block;
+}
+
+.item-group{
+  width: 100%;
+  height: 100%;
+}
+.thumbnail-group{
+  width: 100%;
+  height: 284rpx;
+}
+.thumbnail-image{
+  width: 100%;
+  height: 100%;
+}
+.item-title{
+  font-size: 32rpx;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}

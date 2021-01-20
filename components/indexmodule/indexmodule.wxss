@@ -1,0 +1,24 @@
+.module{
+  padding: 30rpx;
+}
+.module-top{
+  display: flex;
+  justify-content: space-between;
+  font-size: 32rpx;
+  background-color: white;
+}
+.module-more{
+  color: #41be57;
+}
+.module-scroll-view{
+  height: 400rpx;
+  width: 100%;
+  margin-top: 30rpx;
+  white-space: nowrap;
+}
+.module-scroll-view .itemview{
+  margin-right: 40rpx;
+}
+.module-scroll-view .itemview:last-of-type{
+  margin-right: 0;
+}
